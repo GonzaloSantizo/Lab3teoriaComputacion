@@ -83,10 +83,6 @@ def shunting_yard(expression):
 
 
 
-
-
-
-
 def create_ast(postfix_expression):
     stack = []
 
@@ -127,12 +123,6 @@ def create_ast(postfix_expression):
         raise ValueError("Error: Too many operands")
 
     return stack[0]
-
-
-
-
-
-
 
 
 def inorder_traversal(node):
